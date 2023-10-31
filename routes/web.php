@@ -21,8 +21,8 @@ Route::get('/', function () {
         'canRegister' => Route::has('register')
     ]);
 });
-
-Route::middleware([
+// todo: edit the login for the blog endpoint
+/*Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
     'verified',
@@ -30,4 +30,6 @@ Route::middleware([
     Route::get('/dashboard', function () {
         return Inertia::render('Dashboard');
     })->name('dashboard');
-});
+});*/
+
+require 'admin.php';
