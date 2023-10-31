@@ -18,6 +18,18 @@ export default {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
         },
+        colors: {
+            'white': '#fff',
+            'input_bg': '#e8f0fe',
+            'green_600': '#16a34a',
+            'danger': '#dc2626',
+            'light_blue': 'rgb(166, 194, 228)',
+            'wrapper-alpha-9': 'rgba(20, 30, 50, .9)',
+            'card_bg': 'rgb(24, 39, 63)'
+        },
+        backgroundImage: {
+            'auth': "url('/images/backgrounds/auth-bg.jpg')",
+        }
     },
 
     plugins: [forms, typography],
