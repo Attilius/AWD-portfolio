@@ -6,8 +6,7 @@ import DropdownLink from '@/Components/DropdownLink.vue';
 const props = defineProps({
     canLogin: Boolean,
     canRegister: Boolean,
-    isAdmin: Boolean,
-    userName: String
+    isAdmin: Boolean
 });
 
 </script>
@@ -31,7 +30,7 @@ const props = defineProps({
 
             <template v-else-if="!$page.props.auth.user">
                 <Link :href="route('login')"
-                      class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white
+                      class="font-bold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white
                              focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500"
                 >
                     Login
@@ -39,7 +38,7 @@ const props = defineProps({
 
                 <Link v-if="canRegister"
                       :href="route('register')"
-                      class="ml-4 font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400
+                      class="ml-4 font-bold text-gray-600 hover:text-gray-900 dark:text-gray-400
                       dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500"
                 >
                     Register
