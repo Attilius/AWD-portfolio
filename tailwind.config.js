@@ -16,6 +16,8 @@ export default {
         extend: {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+                mocha: ['Mochiy Pop One'],
+                infant: ['Ysabeau Infant'],
             },
         },
         colors: {
@@ -25,10 +27,12 @@ export default {
             'danger': '#dc2626',
             'light_blue': 'rgb(166, 194, 228)',
             'wrapper-alpha-9': 'rgba(20, 30, 50, .9)',
+            'wrapper-alpha-96': 'rgba(20, 30, 50, .96)',
             'card_bg': 'rgb(24, 39, 63)'
         },
         backgroundImage: {
             'auth': "url('/images/backgrounds/auth-bg.jpg')",
+            'modern': "url('/images/backgrounds/modern.jpg')",
         }
     },
 
