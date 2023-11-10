@@ -26,13 +26,22 @@ export default {
             'green_600': '#16a34a',
             'danger': '#dc2626',
             'light_blue': 'rgb(166, 194, 228)',
+            'wrapper-alpha-48': 'rgba(20, 30, 50, .48)',
+            'wrapper-alpha-6': 'rgba(20, 30, 50, .6)',
             'wrapper-alpha-9': 'rgba(20, 30, 50, .9)',
+            'wrapper-alpha-95': 'rgba(20, 30, 50, .95)',
             'wrapper-alpha-96': 'rgba(20, 30, 50, .96)',
-            'card_bg': 'rgb(24, 39, 63)'
+            'card_bg': 'rgb(24, 39, 63)',
+            'card-bg-light': 'rgb(25, 48, 78)',
+            'project-blue': '#2563eb',
+            'orange': '#FFA500',
         },
         backgroundImage: {
             'auth': "url('/images/backgrounds/auth-bg.jpg')",
             'modern': "url('/images/backgrounds/modern.jpg')",
+            'me': "url('/images/backgrounds/me-2.png')",
+            'me-color': "url('/images/backgrounds/me-color.jpg')",
+            'contact': "url('/images/backgrounds/contact.jpg')",
         }
     },
 
