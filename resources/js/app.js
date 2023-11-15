@@ -7,12 +7,16 @@ import { resolvePageComponent } from 'laravel-vite-plugin/inertia-helpers';
 import { ZiggyVue } from '../../vendor/tightenco/ziggy/dist/vue.m';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faAngleLeft, faDownload, faFilter, faEye } from '@fortawesome/free-solid-svg-icons';
-import { faAvianex, faFacebookF, faTwitter, faLinkedinIn, faGithub, faStackOverflow } from '@fortawesome/free-brands-svg-icons';
+import { faAngleLeft, faDownload, faFilter, faEye, faAnglesLeft, faAngleDown, faAngleUp, faL, faHome,
+        faClapperboard, faUsersLine, faEnvelope, faFileLines } from '@fortawesome/free-solid-svg-icons';
+import { faLinkedinIn, faGithub, faStackOverflow, faBlogger, faSquareGooglePlus } from '@fortawesome/free-brands-svg-icons';
+import { faNewspaper } from '@fortawesome/free-regular-svg-icons';
 
 const appName = import.meta.env.VITE_APP_NAME || 'Laravel';
 
-library.add( faAngleLeft, faLinkedinIn, faGithub, faStackOverflow, faDownload, faFilter, faEye );
+library.add( faAngleLeft, faLinkedinIn, faGithub, faStackOverflow, faDownload, faFilter, faEye, faAnglesLeft, faL,
+             faBlogger, faHome, faAngleDown, faAngleUp, faClapperboard, faUsersLine, faNewspaper, faEnvelope,
+             faFileLines, faSquareGooglePlus );
 
 createInertiaApp({
     title: (title) => `${title} - ${appName}`,

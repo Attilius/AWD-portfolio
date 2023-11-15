@@ -35,6 +35,10 @@ export default {
             'card-bg-light': 'rgb(25, 48, 78)',
             'project-blue': '#2563eb',
             'orange': '#FFA500',
+            'dark': 'rgb(17, 24, 39)',
+            'dark2': 'rgb(24, 24, 24)',
+            'light': 'rgb(31, 41, 55)',
+            'gray': 'rgb(156, 163, 162)'
         },
         backgroundImage: {
             'auth': "url('/images/backgrounds/auth-bg.jpg')",
